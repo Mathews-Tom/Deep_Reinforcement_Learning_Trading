@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 16 23:46:52 2022
-
-@author: Abhilash
-"""
-
 import random
 from collections import deque
 

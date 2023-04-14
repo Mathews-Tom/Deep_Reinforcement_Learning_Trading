@@ -1,18 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul  9 12:17:31 2022
-
-@author: Abhilash
-"""
-
 import random
 from collections import deque
 
 import numpy as np
-from tensorflow.keras import Sequential
 from tensorflow.keras.callbacks import TensorBoard
 from tensorflow.keras.layers import Dense
-from tensorflow.keras.models import load_model
 from tensorflow.keras.optimizers import Adam
 import tensorflow as tf
 from utils import Portfolio

@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul  2 13:01:03 2022
-
-@author: Abhilash
-"""
-
 import numpy as np
 import pandas as pd
 from empyrical import sharpe_ratio

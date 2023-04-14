@@ -1,14 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul  2 13:12:25 2022
-
-@author: Abhilash
-"""
-
 import argparse
-import importlib
 import logging
-import sys
 import time
 import numpy as np
 from utils import *
@@ -30,7 +21,7 @@ inputs = parser.parse_args()
 #model_name="DQN"
 #model_name="DDQN"
 #model_name="DuelingDDQN"
-#model_name="AC"
+#model_name="AC"source
 #model_name="Hard_A2C"
 #model_name="TRPO_A2C"
 model_name="DDPG"

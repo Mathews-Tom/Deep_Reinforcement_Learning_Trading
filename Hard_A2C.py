@@ -1,18 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul  9 16:53:08 2022
-
-@author: Abhilash
-"""
-
 import random
 from collections import deque
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.activations import softmax
 from tensorflow.keras.layers import Input, Dense, Concatenate
-from tensorflow.keras.models import Model, load_model
+from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 import threading
 from utils import Portfolio

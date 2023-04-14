@@ -1,0 +1,7 @@
+numpy
+pandas
+empyrical
+matplotlib
+tensorflow; sys_platform == 'Windows'
+tensorflow-macos; sys_platform == 'darwin'
+
